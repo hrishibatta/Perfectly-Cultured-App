@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/screens/placeholder.dart';
 import 'package:flutter_app/screens/calendar.dart';
 import 'package:flutter_app/screens/hello.dart';
+import 'package:flutter_app/screens/WeatherHome.dart';
+
 
 class Home extends StatefulWidget {
   @override
@@ -10,10 +12,10 @@ class Home extends StatefulWidget {
   }
 }
 class _HomeState extends State<Home> {
-  int _currentIndex = 0;
+  int _currentIndex = 1;
   final List<Widget> _children = [
     time(),
-    PlaceholderWidget(Colors.blue),
+    WeatherHome(),
     MyHomePage(),];
   @override
   Widget build(BuildContext context) {

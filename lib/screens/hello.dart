@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
           NewsArticle article = NewsHelper.getArticle(position);
 
           return GestureDetector(
+
             onTap: () => Navigator.push(
               context,
               MaterialPageRoute(builder: (_) => fu(
@@ -48,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.fromLTRB(0.0, 0.5, 0.0, 0.5),
               child: Card(
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: const EdgeInsets.all(8.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
@@ -67,40 +68,9 @@ class _MyHomePageState extends State<MyHomePage> {
                               ),
                               flex: 3,
                             ),
-                            Flexible(
-                              flex: 1,
-                              child: Container(
-                                  height: 80.0,
-                                  width: 80.0,
-                                  child: Image.asset(
-                                    "assets/" + article.imageAssetName,
-                                    fit: BoxFit.cover,
-                                  )),
-                            ),
                           ],
                         ),
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: <Widget>[
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                article.author,
-                                style: TextStyle(fontSize: 18.0),
-                              ),
-                              Text(
-                                article.date + " . " + article.readTime,
-                                style: TextStyle(
-                                    color: Colors.black45,
-                                    fontWeight: FontWeight.w500),
-                              )
-                            ],
-                          ),
-                          Icon(Icons.bookmark_border),
-                        ],
-                      )
                     ],
                   ),
                 ),

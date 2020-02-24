@@ -9,6 +9,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Flutter App',
+      theme: ThemeData(
+          textTheme: TextTheme(
+              body1: TextStyle(fontSize: 20.0)
+          )
+      ),
       home: Home(),
     );
   }

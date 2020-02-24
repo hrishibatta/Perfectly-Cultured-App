@@ -2,17 +2,18 @@ import 'package:flutter_app/Article.Dart.dart';
 
 class NewsHelper {
 
-  static var articleCount = 4;
+  static var articleCount = 10;
 
 
-  static var titles = ["Sorry, Methane and 'Organics' On Mars Are Not Evidence For Life", "A crash course on Serverless APIs with Express and MongoDB", "What happened Gmail?", "A year as a Data Scientist right after college: An honest review"];
-  static var authorNames = ["Ethan Siegal", "Adnan Rahic", "Avi Ashkenazi", "Abhishek Parkbhakar"];
+  static var titles = ["Australia", "United States", "China", "Ethiopia", "Canada", "Mexico", "England", "Russia", "U.A.E", "South Africa", "More Countries"];
+
+  static var authorNames = ["Hrishi", "Jensen", "Ryan", "Kidus"];
   static var date = ["15 Jun", "15 hours ago", "27 Apr", "14 Jun"];
   static var readTimes = ["7 min read", "14 min read", "8 min read", "8 min read"];
   static var imageAssetName = ["mars.jpeg","cars.jpeg","gmail.jpeg","umbrella.jpeg"];
 
   static getArticle(int position) {
-    return NewsArticle(titles[position], authorNames[position],date[position],readTimes[position], imageAssetName[position]);
+    return NewsArticle(titles[position]);
   }
 
 }

@@ -14,13 +14,10 @@ class _timeState extends State<time> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
-        children: <Widget>[
-          Text("die bitch"),
-          Text("")
-        ]
+        child:  Center(
+            child: Text("Calendar Events", style: TextStyle(fontSize: 30.0), ),
+          ),
 
-      )
       )
     );
   }
