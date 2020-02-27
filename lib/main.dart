@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/screens/home.dart';
+import 'package:flutter_app/screens/login_screen.dart';
 
 
 void main() => runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
               body1: TextStyle(fontSize: 20.0)
           )
       ),
-      home: Home(),
+      home: LoginScreen(),
     );
   }
 }

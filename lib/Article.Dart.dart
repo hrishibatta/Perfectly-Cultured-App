@@ -2,8 +2,9 @@ class NewsArticle {
 
 
   String title;
+  String assetName;
 
 
-  NewsArticle(this.title);
+  NewsArticle(this.title, this.assetName);
 
 }
