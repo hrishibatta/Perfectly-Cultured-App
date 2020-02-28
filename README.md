@@ -1,10 +1,10 @@
-# flutter_app
+# Perfectly Cultured
 
 A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This appllication uses flutter. Install flutter to view and run the code. 
 
 A few resources to get you started if this is your first Flutter project:
 
