@@ -18,3 +18,26 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
+##Building
+Follow the Flutter Official Guide to install Flutter & Android Studio, together with the Flutter Plugin.
+
+Ensure that the installation is successful by running:
+```bash
+$ flutter doctor
+Then, clone the repository from GitHub:
+
+$ git clone https://github.com/darekaze/canorous.git
+Open the directory using a terminal:
+
+$ cd canorous
+Get the packages from pub:
+
+$ flutter packages get
+Build the apk package by running:
+
+$ flutter build apk --flavor production -t lib/main.dart
+or install the app in iOS by running (non-permanent method):
+
+$ flutter run --release --flavor production -t lib/main.dart
+
+
