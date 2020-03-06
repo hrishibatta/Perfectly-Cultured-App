@@ -28,12 +28,12 @@ $ flutter doctor
 
 Then, clone the repository from GitHub:
 ```bash
-$ git clone https://github.com/darekaze/canorous.git
+$ git clone https://github.com/hsbatta/flutter_app.git
 ```
 
 Open the directory using a terminal:
 ```bash
-$ cd canorous
+$ cd flutter_app
 ```
 
 Get the packages from pub:
