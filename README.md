@@ -4,7 +4,7 @@
 
 A new Flutter application.
 
-![](gifVid.gif= 250X250)
+![](gifVid.gif =250X250)
 
 ## Getting Started
 
