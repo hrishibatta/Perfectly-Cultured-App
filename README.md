@@ -4,7 +4,7 @@
 
 A new Flutter application.
 
-![](gifVid.gif =250X250)
+<img src="gifVid.gif" width="200" height="400" />
 
 ## Getting Started
 
