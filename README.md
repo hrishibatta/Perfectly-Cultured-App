@@ -4,6 +4,8 @@
 
 A new Flutter application.
 
+![](gifVid.gif)
+
 ## Getting Started
 
 This appllication uses flutter. Install flutter to view and run the code. 
