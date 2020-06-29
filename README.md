@@ -7,6 +7,8 @@ A new Flutter application.
 <img src="gifVid.gif" width="200" height="400" />
 
 ## About Us
+  (App created for Ready, Set, App Challenge 2019.)
+  
   The app will address the issue of not understanding and regularly communicating with
 people from other cultures is by providing easy-to-access information about each country from
 around the world as well as personal experiences related to that country.
